@@ -1,0 +1,56 @@
+ 24-Nov-2023 01:58:24.024 INFO - Loged in Successfully
+24-Nov-2023 02:00:04.004 INFO - Loged in Successfully
+24-Nov-2023 02:01:36.036 INFO - Loged in Successfully
+24-Nov-2023 02:09:35.035 INFO - Loged in Successfully
+24-Nov-2023 22:33:08.008 DEBUG - Insideclass com.mid.service.CustomerLoginServiceImplmethod
+
+
+
+24-Nov-2023 22:45:36.036 DEBUG - Inside class com.mid.service.CustomerLoginServiceImplmethod
+24-Nov-2023 22:47:26.026 DEBUG - Inside class com.mid.service.CustomerLoginServiceImpl
+24-Nov-2023 22:47:26.026 DEBUG - Login Failed in check
+24-Nov-2023 22:51:55.055 DEBUG - Inside class com.mid.service.CustomerLoginServiceImpl
+24-Nov-2023 22:51:55.055 DEBUG - Login Failed at the stack Trace [Ljava.lang.StackTraceElement;@706eab5d
+24-Nov-2023 22:58:14.014 DEBUG - Inside class com.mid.service.CustomerLoginServiceImpl
+24-Nov-2023 22:58:14.014 DEBUG - Login Failed at the stack Trace [Ljava.lang.StackTraceElement;@40e60ece
+24-Nov-2023 22:58:14.014 DEBUG - Login Failed 
+com.mid.exception.BankException: FAILED
+	at com.mid.service.CustomerLoginServiceImpl.authenticateCustomer(CustomerLoginServiceImpl.java:48) ~[classes/:?]
+	at com.mid.controller.CustomerLoginController.authenticateCustomer(CustomerLoginController.java:20) ~[classes/:?]
+	at com.mid.CustomerLoginLearnApplication.run(CustomerLoginLearnApplication.java:45) ~[classes/:?]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:771) ~[spring-boot-3.1.5.jar:3.1.5]
+	at org.springframework.boot.SpringApplication.lambda$callRunners$3(SpringApplication.java:755) ~[spring-boot-3.1.5.jar:3.1.5]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183) [?:?]
+	at java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357) [?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:510) [?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) [?:?]
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150) [?:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173) [?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) [?:?]
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596) [?:?]
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:750) [spring-boot-3.1.5.jar:3.1.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:323) [spring-boot-3.1.5.jar:3.1.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306) [spring-boot-3.1.5.jar:3.1.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295) [spring-boot-3.1.5.jar:3.1.5]
+	at com.mid.CustomerLoginLearnApplication.main(CustomerLoginLearnApplication.java:27) [classes/:?]
+24-Nov-2023 22:58:55.055 DEBUG - Inside class com.mid.service.CustomerLoginServiceImpl
+24-Nov-2023 22:58:55.055 DEBUG - Login Failed 
+com.mid.exception.BankException: FAILED
+	at com.mid.service.CustomerLoginServiceImpl.authenticateCustomer(CustomerLoginServiceImpl.java:47) ~[classes/:?]
+	at com.mid.controller.CustomerLoginController.authenticateCustomer(CustomerLoginController.java:20) ~[classes/:?]
+	at com.mid.CustomerLoginLearnApplication.run(CustomerLoginLearnApplication.java:45) ~[classes/:?]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:771) ~[spring-boot-3.1.5.jar:3.1.5]
+	at org.springframework.boot.SpringApplication.lambda$callRunners$3(SpringApplication.java:755) ~[spring-boot-3.1.5.jar:3.1.5]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183) [?:?]
+	at java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357) [?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:510) [?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) [?:?]
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150) [?:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173) [?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) [?:?]
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596) [?:?]
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:750) [spring-boot-3.1.5.jar:3.1.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:323) [spring-boot-3.1.5.jar:3.1.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306) [spring-boot-3.1.5.jar:3.1.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295) [spring-boot-3.1.5.jar:3.1.5]
+	at com.mid.CustomerLoginLearnApplication.main(CustomerLoginLearnApplication.java:27) [classes/:?]
