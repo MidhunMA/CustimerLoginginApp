@@ -608,3 +608,5 @@ com.mid.exception.BankException: FAILED
 26-Nov-2023 15:45:32.032 INFO - Loged in Successfully
 26-Nov-2023 15:45:50.050 DEBUG - Going Inside service class method
 26-Nov-2023 15:45:50.050 INFO - Loged in Successfully
+26-Nov-2023 15:55:20.020 DEBUG - Going Inside service class method
+26-Nov-2023 15:55:20.020 INFO - Loged in Successfully
