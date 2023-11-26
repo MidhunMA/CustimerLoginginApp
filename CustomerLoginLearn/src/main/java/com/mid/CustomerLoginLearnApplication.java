@@ -37,24 +37,18 @@ public class CustomerLoginLearnApplication implements CommandLineRunner {
 	try {
 		
 		CustomerLoginDTO logingCustomer=new CustomerLoginDTO();
-		logingCustomer.setUsername("vishnu");
-		logingCustomer.setPassword("vishfuhdd");
+		logingCustomer.setUsername("midhun");
+		logingCustomer.setPassword("midhun123");
 		
+		String status=environment.getProperty(customerLoginController.authenticateCustomer(logingCustomer));
 		
-		
-		logger.info(environment.getProperty(customerLoginController.authenticateCustomer(logingCustomer)));
+		logger.info(status);
 		
 	} catch (BankException e) {
 		// TODO Auto-generated catch block
 		logger.error(environment.getProperty(e.getMessage()));
+		
 	}
 	
-	  
 	}        
-	
-	
-	
-	
-	
-
 }
